@@ -1,0 +1,19 @@
+let mySprite = sprites.create(img`
+    ..................ccfff.............
+    .................cddbbf.............
+    ........fffffffffddbbf..............
+    .......fbbbbbbbbbfcbcf..............
+    .......fbbc111bffbbccffff...........
+    .......fb111111ffbbbbbcccff....ccccc
+    ........f1cc3311bbcbcbbccccf..cdbbbc
+    ........fcc131c1bbbcbcbcccccfcddbbc.
+    .........f111111bbbcbcbccccccbdbbf..
+    .........f1111111bbbbbccccccccbbcf..
+    ..........f111111bbbbcccccccffbccf..
+    ...........c1111cbbbcccccbdbc.fbbcf.
+    ............cc11cbbbfddddddc...fbbf.
+    ..............cffbdbbfdddcc.....fbbf
+    .................fbdbbfcc........fff
+    ..................fffff.............
+    `, SpriteKind.Player)
+mySprite.sayText(":)")
