@@ -15,5 +15,5 @@ let mySprite = sprites.create(img`
     ..............cffbdbbfdddcc.....fbbf
     .................fbdbbfcc........fff
     ..................fffff.............
-    `, SpriteKind.Player)
-mySprite.sayText(":)")
+    `, SpriteKind.Enemy)
+mySprite.sayText("I am going to eat you")
